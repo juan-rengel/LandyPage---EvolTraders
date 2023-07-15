@@ -1,0 +1,115 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body, html{
+  font-size: 1rem;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background: linear-gradient(45deg, #300303, #07002a, #000000);
+  background-size: 300% 300%;
+  animation: colors 5s ease infinite;
+  padding: 25px;
+}
+section{
+  box-sizing: content-box;
+  height: 100%;
+}
+  .portada{
+    width: 100%;
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: linear-gradient(45deg, #300303, #07002a, #000000);
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+    border: 1px solid red;
+}
+
+
+.conteudo1{
+  text-align: center;
+  margin-top: 25px;
+  max-width: 100%;
+  padding: 25px;
+
+}
+
+.titulo01{
+  color: rgb(253, 253, 253);
+  font-size: 2.5rem;
+ 
+}
+.titulo02{
+  color: rgb(33, 179, 251);
+  font-size: 2.5rem;
+
+}
+
+.A1{
+  color: rgb(253, 253, 253);
+  font-size: 2.2rem;
+  margin-top: 10px;
+}
+
+.A2{
+  color: rgb(253, 253, 253);
+  font-size: 2.2rem;
+}
+
+.A3{
+  color: rgb(253, 253, 253);
+  font-size: 1.5rem;
+}
+
+.amarillo{
+  color: rgb(255, 242, 0);
+}
+.conteudo2{
+  text-align: center;
+  margin-top: 25px;
+  padding: 25px;
+  max-width: 100%;
+}
+.conteudo2 > H2{
+  color: rgb(253, 253, 253);
+  font-size: 1.8rem;
+}
+.conteudo2 > p{
+  color: rgb(253, 253, 253);
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+
+
+.img{
+  background-image: url("img/5.jpg");
+  width: 450px;
+  height: 450px;
+  margin: auto;
+}
+
+.video{
+  max-width: 60%;
+  width: 60%;
+  margin: auto;
+
+}
+iframe{
+  width: 100%;
+}
+
+
+
+
+.link{
+  display: block;
+  padding: 15px;
+}
+
