@@ -120,7 +120,14 @@ section{
   color: white;
   font-size: 2.5rem;
   padding: 20px;
+  width: 400px;
 }
+.subtitulo{
+  color: white;
+  font-size: 1rem;
+  margin: 15px;
+}
+
 
 .cart{
   width: 100%;
