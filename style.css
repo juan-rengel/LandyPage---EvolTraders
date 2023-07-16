@@ -190,7 +190,7 @@ color: #ffffff;
   animation: flutuacao 1s ease-in-out infinite;
   transform: scale3d(1.1, 1.1, 1);
    box-shadow: 5px 5px 10px rgba(0, 136, 255, 0.471);
-   border: 3px solid rgb(84, 117, 246);
+   border: 3px solid rgba(42, 85, 255, 0.594);
 
 }
 
