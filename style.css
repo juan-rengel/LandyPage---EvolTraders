@@ -38,6 +38,7 @@ section{
   font-size: 2rem;
   color: #ffffff;
 }
+
 .tion{
   font-size: 3.5rem;
   color: #e5e5e5;
@@ -152,7 +153,7 @@ section{
 
 .img{
   background-image: url("img/5.jpg");
-  width: 380px;
+  width: 400px;
   height: 350px;
   margin: auto;
 }
@@ -183,10 +184,10 @@ a{
  background: linear-gradient(#fff700, #bcbcbcea);
 color: #000000;
  border-radius: 10px;
- width: 400px;
+ width: 380px;
  text-decoration: none;
  text-align: center;
- font-size: 1.8rem;
+ font-size: 1.6rem;
   animation: flutuacao 1s ease-in-out infinite;
   transform: scale3d(1.1, 1.1, 1);
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.845);
