@@ -4,17 +4,9 @@
 }
 body, html{
   font-size: 1rem;
+  font-family: sans-serif;
 }
 
-header ul{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  background: linear-gradient(45deg, #000217, #07002a, #3e0000);
-  background-size: 300% 300%;
-  animation: colors 5s ease infinite;
-  padding: 25px;
-}
 section{
   box-sizing: content-box;
   height: 100%;
@@ -36,24 +28,25 @@ section{
 
 .conteudo1{
   text-align: center;
-  margin-top: 25px;
+  margin-top: 15px;
   max-width: 100%;
-  padding: 15px;
+  padding: 5px;
 
 
 }
 .conteudo1  .tra{
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffffff;
 }
+
 .conteudo1  .evo{
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   color: #ffffff;
 }
 
 .titulo01{
   color: rgb(253, 253, 253);
-  font-size: 2.5rem;
+  font-size: 2rem;
  
 }
 .titulo02{
@@ -65,19 +58,20 @@ section{
 .A1{
   color: rgb(253, 253, 253);
   font-size: 2.2rem;
-  margin-top: 10px;
+  margin-top: 50px;
 }
 
 .A2{
   color: rgb(253, 253, 253);
   font-size: 1.8rem;
+  margin: 5px;
 }
 
 .A3{
   color: #000000;
   font-size: 1.5rem;
   border-radius: 10px;
-  margin: 15px;
+  margin-bottom: 150px;
 }
 
 .amarillo{
@@ -160,7 +154,7 @@ iframe{
 
 
 
-.link{
+a{
   display: block;
   padding: 8px;
  margin: auto;
@@ -172,4 +166,17 @@ iframe{
  text-align: center;
  font-size: 1.8rem;
 }
+a:hover{
+    transform: scale3d(1.1, 1.1, 1);
+
+}
+@keyframes flutuaçao {
+  50%, 50%{
+    transform: translateY(2px);
+  }
+  50%{
+    transform: translateY(-2px);
+  }
+}
+
 
