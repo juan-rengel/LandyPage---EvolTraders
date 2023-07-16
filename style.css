@@ -38,12 +38,22 @@ section{
   font-size: 2rem;
   color: #ffffff;
 }
+.tion{
+  font-size: 3.5rem;
+  color: #e5e5e5;
+  background: #0011fff8 -webkit-gradient(linear, left top, right top, from(#fffeff),
+  to(#08003f), color-stop(0.5, #a5a2b4)) 0 0 no-repeat;
+  -webkit-background-size: 80px;
+  background-size: 80px;
+  color: #c7c6c30a;   
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animate 4s infinite;
+}
 
-.conteudo1  .evo{
+.conteudo1  .evo {
   font-size: 3.5rem;
   color: #ffffff;
-
- 
   background: #fffffff8 -webkit-gradient(linear, left top, right top, from(#2814ff),
   to(#08003f), color-stop(0.5, #140066)) 0 0 no-repeat;
   -webkit-background-size: 80px;
@@ -193,4 +203,20 @@ a:hover{
   }
 }
 
+  @keyframes animate{
+    0%, 10%{
+      background-position: -1000px;
+    }
+    20%{
+      background-position: top left;
+    }
+    90%{
+      background-position: top right;
+    }
+    100%{
+      background-position: 1000px;
+    }
+
+        
+  }
 
