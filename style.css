@@ -42,6 +42,16 @@ section{
 .conteudo1  .evo{
   font-size: 3.5rem;
   color: #ffffff;
+
+ 
+  background: #fffffff8 -webkit-gradient(linear, left top, right top, from(#2814ff),
+  to(#08003f), color-stop(0.5, #140066)) 0 0 no-repeat;
+  -webkit-background-size: 80px;
+  background-size: 80px;
+  color: #c7c6c30a;   
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: animate 4s infinite;
 }
 
 .titulo01{
@@ -165,12 +175,16 @@ a{
  text-decoration: none;
  text-align: center;
  font-size: 1.8rem;
+  animation: flutuacao 1s ease-in-out infinite;
+  transform: scale3d(1.1, 1.1, 1);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.986);
 }
+
 a:hover{
     transform: scale3d(1.1, 1.1, 1);
 
 }
-@keyframes flutuaçao {
+@keyframes flutuacao {
   50%, 50%{
     transform: translateY(2px);
   }
