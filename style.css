@@ -181,7 +181,7 @@ a{
   font-weight: 500;
  margin: auto;
  background: linear-gradient(#00050500, #21eefc00);
-color: #f2ff00;
+color: #ffffff;
  border-radius: 10px;
  width: 350px;
  text-decoration: none;
@@ -190,7 +190,7 @@ color: #f2ff00;
   animation: flutuacao 1s ease-in-out infinite;
   transform: scale3d(1.1, 1.1, 1);
    box-shadow: 5px 5px 10px rgba(0, 136, 255, 0.471);
-   border: 1px solid rgb(84, 117, 246);
+   border: 3px solid rgb(84, 117, 246);
 
 }
 
