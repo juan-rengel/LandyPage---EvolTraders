@@ -113,7 +113,6 @@ section{
   color: rgb(253, 253, 253);
   font-size: 1.2rem;
   margin: 20px;
-  text-transform: capitalize;
   text-align: justify;
 }
 .titulo{
@@ -121,6 +120,9 @@ section{
   font-size: 2.5rem;
   padding: 20px;
   width: 400px;
+  text-align: center;
+  color: #52fff6;
+  margin-top: 20px;
 }
 .subtitulo{
   color: white;
@@ -141,15 +143,16 @@ section{
   text-align: center;
   width: 380px;
   height: 500px;
-  background-color: #00f8f8ed;
+  background-color: rgba(252, 254, 254, 0.929);
   margin-bottom: 25px;
 }
 .card-img{
   text-align: center;
-  width: 380px;
-  height: 450px;
-  background-color: #00f8f8ed;
+  width: 300px;
+  height: 500px;
+  background-color: #02ffffed;
   margin-bottom: 25px;
+  border: 1px solid rgb(235, 235, 235);
 }
 
 .card-c{
@@ -157,8 +160,12 @@ section{
   margin-top: 25px;
   width: 380px;
   height: 500px;
-  background-color: #faffffed;
+  background-color: #000000ed;
+  color: #ffffff;
   margin: 25px;
+  font-size: 1.1rem;
+   border: 1px solid rgba(247, 247, 252, 0.587);
+   border-radius: 2px;
 }
 
 .img{
@@ -192,7 +199,7 @@ a{
   font-weight: 500;
  margin: auto;
  background: linear-gradient(#00050500, #21eefc00);
-color: #ffffff;
+color: #fff700;
  border-radius: 10px;
  width: 350px;
  text-decoration: none;
@@ -202,6 +209,17 @@ color: #ffffff;
   transform: scale3d(1.1, 1.1, 1);
    box-shadow: 5px 5px 10px rgba(0, 136, 255, 0.471);
    border: 3px solid rgba(42, 85, 255, 0.594);
+   margin: auto;
+
+
+}
+.link{
+  width: 100%;
+    display: flex;
+    align-items: normal;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 25px;
 
 }
 
