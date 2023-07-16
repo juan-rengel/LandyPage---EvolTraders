@@ -111,7 +111,9 @@ section{
 .conteudo2 > p{
   color: rgb(253, 253, 253);
   font-size: 1.2rem;
-  margin: 15px;
+  margin: 20px;
+  text-transform: capitalize;
+  text-align: justify;
 }
 .titulo{
   color: white;
@@ -129,14 +131,14 @@ section{
 }
 .card{
   text-align: center;
-  width: 300px;
+  width: 380px;
   height: 500px;
   background-color: #00f8f8ed;
   margin-bottom: 25px;
 }
 .card-img{
   text-align: center;
-  width: 300px;
+  width: 380px;
   height: 450px;
   background-color: #00f8f8ed;
   margin-bottom: 25px;
@@ -145,7 +147,7 @@ section{
 .card-c{
   text-align: center;
   margin-top: 25px;
-  width: 300px;
+  width: 380px;
   height: 500px;
   background-color: #faffffed;
   margin: 25px;
@@ -153,7 +155,7 @@ section{
 
 .img{
   background-image: url("img/5.jpg");
-  width: 400px;
+  width: 380px;
   height: 350px;
   margin: auto;
 }
@@ -162,7 +164,8 @@ section{
 
 
 .video{
-  max-width: 60%;
+  min-width: 380px;
+  max-width: 800px;
   margin: auto;
 
 
