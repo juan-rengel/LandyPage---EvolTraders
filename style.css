@@ -146,7 +146,17 @@ section{
 .card{
   text-align: center;
   width: 380px;
-  height: 455px;
+  height: 380px;
+  margin-bottom: 25px;
+  background: linear-gradient(45deg, #a490f3, #110a2f, #500000);
+  background-size: 300% 300%;
+  animation: colors 5s ease infinite;
+
+}
+.card-cont{
+  text-align: center;
+  width: 380px;
+  height: 450px;
   margin-bottom: 25px;
   background: linear-gradient(45deg, #a490f3, #110a2f, #500000);
   background-size: 300% 300%;
@@ -160,6 +170,9 @@ section{
   height: 500px;
   margin-bottom: 25px;
   
+}
+.card img{
+  width: 380px;
 }
 
 .card-c{
