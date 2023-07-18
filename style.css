@@ -145,13 +145,27 @@ section{
 
 .card{
   text-align: center;
-  width: 380px;
-  height: 380px;
+  width: 350px;
+  height: 350px;
   margin-bottom: 25px;
   background: linear-gradient(45deg, #a490f3, #110a2f, #500000);
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
 
+}
+
+.card img{
+  width: 100%;
+}
+
+.card-c img{
+  width: 80%;
+}
+
+
+
+.card-img img{
+  width: 65%;
 }
 
 .depoimento{
@@ -173,12 +187,6 @@ section{
 
 .card-img img{
   width: 65%;
-}
-.card img{
-  width: 90%;
-}
-.card-c img{
-  width: 90%;
 }
 
 
@@ -206,12 +214,6 @@ section{
   color: #fffb00;
 }
 
-.video{
-  min-width: 380px;
-  max-width: 800px;
-  margin: auto;
-
-}
 iframe{
   width: 100%;
 }
