@@ -153,6 +153,13 @@ section{
   animation: colors 5s ease infinite;
 
 }
+
+.depoimento{
+  text-align: center;
+  width: 380px;
+  height: 550px;
+  
+}
 .card-cont{
   text-align: center;
   width: 380px;
@@ -164,16 +171,16 @@ section{
 
 }
 
-.card-img{
-  text-align: center;
-  width: 300px;
-  height: 500px;
-  margin-bottom: 25px;
-  
+.card-img img{
+  width: 60%;
 }
 .card img{
-  width: 380px;
+  width: 90%;
 }
+.card-c img{
+  width: 100%;
+}
+
 
 .card-c{
   text-align: center;
@@ -186,9 +193,7 @@ section{
   font-size: 1.1rem;
    border-radius: 2px;
 }
-.card-c img{
-  width: 380px;
-}
+
 
 .img{
   background-image: url("img/5.jpg");
