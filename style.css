@@ -297,6 +297,9 @@ a.footer{
  margin: 5px;
  color: #ffea00;
  text-decoration: none;
+ width: 400px;
+margin: auto;
+margin-top: 5px;
 
 }
 a.footer:hover{
