@@ -5,14 +5,14 @@
 body, html{
   font-size: 1rem;
   font-family: sans-serif;
+  box-sizing: content-box;
+  background: linear-gradient(45deg, rgb(0, 0, 0), #00051d, #420048);
+  background-size: 300% 300%;
+  animation: colors 5s ease infinite;
 }
 
 section{
-  box-sizing: content-box;
   height: 100%;
-  background: linear-gradient(45deg, #0d369e, #150000, #180058);
-  background-size: 300% 300%;
-  animation: colors 5s ease infinite;
  
 
 }
@@ -28,7 +28,8 @@ section{
 .cont {
   color: #ffffff;
   font-size: 1.3rem;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 
@@ -127,6 +128,7 @@ section{
   color: #52fff6;
   margin-top: 20px;
 }
+
 .subtitulo{
   color: white;
   font-size: 1rem;
@@ -184,6 +186,8 @@ section{
   background: linear-gradient(45deg, #a490f3, #110a2f, #500000);
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px rgba(91, 0, 83, 0.315);
 
 }
 
@@ -237,6 +241,7 @@ transform: scale3d(1.1, 1.1, 1);
 box-shadow: 5px 5px 10px rgba(0, 136, 255, 0.235);
 border: 2px solid rgba(42, 85, 255, 0.594);
 margin: auto;
+margin: 5px;
 
 
 }
@@ -258,14 +263,30 @@ a:hover{
 ol{
 
   padding: 15px;
+  width: 100%;
   
 }
 
 li{
  
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 15px;
+  width: 350px;
 
+}
+
+
+footer{
+  background-color: #000000;
+  color: white;
+  padding: 25px;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 15px;
+}
+footer > p{
+  margin: auto;
+  max-width: 450px;
 }
 
 @keyframes flutuacao {
@@ -293,4 +314,19 @@ li{
 
         
   }
+
+  
+@keyframes colors {
+  0% {
+      background-position: 0% 90%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
 
