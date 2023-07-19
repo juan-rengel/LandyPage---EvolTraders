@@ -98,8 +98,10 @@ section{
 .A3{
   color: #000000;
   font-size: 1.5rem;
-  border-radius: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
   margin-bottom: 150px;
+ background-color: #fff700;
 }
 
 .amarillo{
