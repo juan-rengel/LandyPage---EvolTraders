@@ -241,7 +241,7 @@ font-size: 1.6rem;
 animation: flutuacao 1s ease-in-out infinite;
 transform: scale3d(1.1, 1.1, 1);
 box-shadow: 5px 5px 10px rgba(0, 136, 255, 0.235);
-border: 2px solid rgba(42, 85, 255, 0.594);
+border: 3px solid rgb(227, 255, 42);
 margin: auto;
 margin: 5px;
 
