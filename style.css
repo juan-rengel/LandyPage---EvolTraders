@@ -10,12 +10,11 @@ body, html{
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
 }
-
-section{
-  height: 100%;
- 
-
+.inicio{
+  height: 100vh;
 }
+
+
   .portada{
     width: 100%;
     display: flex;
@@ -25,8 +24,17 @@ section{
 
 
 }
+.contp{
+  font-size: 1.3rem;
+  color: #fffcfc;
+  text-align: center;
+  width: 380px;
+  padding: 10px;
+  margin: auto;
+ text-align: justify;
+}
 .cont {
-  color: #ffffff;
+  color: #fdf9f9;
   font-size: 1.3rem;
   margin-top: 15px;
   margin-bottom: 15px;
@@ -42,7 +50,7 @@ section{
 
 }
 .conteudo1  .tra{
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #ffffff;
 }
 
@@ -89,15 +97,9 @@ section{
   margin-top: 50px;
 }
 
-.A2{
-  color: rgb(253, 253, 253);
-  font-size: 1.8rem;
-  margin: 5px;
-}
 
 .A3{
-  color: #000000;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 150px;
@@ -122,12 +124,11 @@ section{
 
 
 .titulo{
-  color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 20px;
   width: 400px;
   text-align: center;
-  color: #52fff6;
+  color: #00ffff;
   margin-top: 20px;
 }
 
