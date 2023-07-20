@@ -291,20 +291,7 @@ footer > p{
   max-width: 450px;
 }
 
-a.footer{
-  font-size: 1rem;
-  display: block;
- margin: 5px;
- color: #ffea00;
- text-decoration: none;
- width: 400px;
-margin: auto;
-margin-top: 5px;
 
-}
-a.footer:hover{
-  color: #ff00e6;
-}
 
 @keyframes flutuacao {
   50%, 50%{
