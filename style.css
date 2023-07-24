@@ -39,11 +39,17 @@ section{
 
 
 }
+.conteudo1 img{
+  width: 150px;
+}
+.evo{
+
+}
 
 
 .tion{
   font-size: 2.5rem;
-  background: #36d4ff -webkit-gradient(linear, left top, right top, from(#fffeffa9),
+  background: #002ae3 -webkit-gradient(linear, left top, right top, from(#fffeffa9),
   to(#ffffff), color-stop(0.5, #ffffff)) 0 0 no-repeat;
   -webkit-background-size: 50px;
   background-size: 50px;
@@ -56,8 +62,8 @@ section{
 .conteudo1  .evo {
   font-size: 2.5rem;
   color: #ffffff;
-  background: #fffffff8 -webkit-gradient(linear, left top, right top, from(#00eefb),
-  to(#00d1dc), color-stop(0.5, #007e9d)) 0 0 no-repeat;
+  background: #fffffff8 -webkit-gradient(linear, left top, right top, from(#002ae3),
+  to(#002ae3), color-stop(0.5, #002ae3)) 0 0 no-repeat;
   -webkit-background-size: 50px;
   background-size: 50px;
   color: #c7c6c30a;   
@@ -65,6 +71,7 @@ section{
   background-clip: text;
   animation: animate 4s infinite;
 }
+
 mark{
   padding: 2px;
   border-radius: 6px;
@@ -226,14 +233,13 @@ display: block;
 padding: 5px;
 font-weight: 600;
 color: #000000;
-background-color: #36d4ff;
+background-color: #fffb00;
 border-radius: 10px;
 text-decoration: none;
 text-align: center;
 font-size: 1.3rem;
 animation: flutuacao 1s ease-in-out infinite;
 transform: scale3d(1.1, 1.1, 1);
-border: 2px solid #36d4ff;
 
 
 }
@@ -241,16 +247,19 @@ img{
   border-radius: 10px 10px 0px 0px;
 }
 .link{
-  width: 100%;
-  display: flex;
+  width: 80%;
+  margin: auto;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 50px;
 }
 
 a:hover{
   transform: scale3d(1.1, 1.1, 1);
+  background-color: #0000003c;
+  color: #fff700;
+  border: 2px solid #fffb00;
 
 }
 
