@@ -224,6 +224,27 @@ mark{
 .card-c img{
   width: 350px;
 }
+.preco{
+  color: rgb(255, 1, 1);
+  margin: 5px;
+  font-size: 1.6rem;
+  font-weight: 200;
+}
+.bonu{
+  color: #ffffff;
+  width: 170px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 2px;
+  animation: flutuacao 1s ease-in-out infinite;
+transform: scale3d(1.1, 1.1, 1);
+  background: linear-gradient(45deg, #a490f3, #110a2f, #500000);
+  background-size: 300% 300%;
+  animation: colors 5s ease infinite;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black
+  ;
+}
 .sub{
   color: #fff700;
 }
